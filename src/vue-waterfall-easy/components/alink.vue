@@ -8,7 +8,7 @@
 
 <!-- —————————————↓HTML————————分界线———————————————————————— -->
 <template lang="pug">
-a.alink(:href="to",target="_blank")
+a.alink(:href="to")
   slot
 </template>
 
